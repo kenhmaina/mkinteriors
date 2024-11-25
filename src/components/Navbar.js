@@ -15,9 +15,9 @@ const Navbar = () => {
       </Link>
       <nav className=" gap-4 text-[10px] md:flex hidden sm:hidden ">
         <Link to={"/"}>HOME</Link>
-        <Link to={"/"}>SERVICES</Link>
-        <Link to={"/"}>ABOUT</Link>
-        <Link to={"/"}>CONTACT US</Link>
+        <Link to={"/services"}>SERVICES</Link>
+        <Link to={"/about"}>ABOUT</Link>
+        <Link to={"/contact"}>CONTACT US</Link>
       </nav>
       <FaPhone className=" hidden sm:hidden md:block" />
       {/**/}

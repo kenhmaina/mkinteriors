@@ -16,13 +16,13 @@ const Landing = () => {
             REIMAGINED
           </h1>
           <Button
-            className={`  hover:text-black ml-[67vw] w-fit sm:ml-[60vw] md:ml-0 hover:bg-white outline gap-4 px-8 outline-[1px]   bg-black   text-white cursor-pointer transition-all ease-in-out font-light `}
+            className={`  hover:text-black ml-[60vw] w-fit sm:ml-[60vw] md:ml-0 hover:bg-white outline gap-4 px-8 outline-[1px]   bg-black   text-white cursor-pointer transition-all ease-in-out font-light `}
             text={"EPLORE"}
           />
         </div>
       </div>
       <img
-        className=" sm:h-[60vh] h-[60vh] outline-[2px] outline md:h-[85vh]  object-cover md:max-w-[50%] md:basis-1/2"
+        className=" sm:h-[65vh] h-[65vh] outline-[2px] outline md:h-[85vh]  object-cover md:max-w-[50%] md:basis-1/2"
         src={LandingImg}
         alt="#"
       />

@@ -6,4 +6,9 @@
 
 body {
   font-family: "DM Sans";
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

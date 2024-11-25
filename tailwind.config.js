@@ -6,8 +6,8 @@ module.exports = {
       colors: {
         primaryColor: "#E7E7E7",
         secondaryColor: "FFFFFF",
-        darkBg: "2C2C2C",
-        blueAccent: "001BFF",
+        darkBg: "#2C2C2C",
+        blueAccent: "#001BFF",
       },
       spacing: {
         smallScreen: "6px",

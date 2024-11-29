@@ -5,6 +5,7 @@ import LatestProjects from "../components/LatestProjects";
 import NeedUs from "../components/NeedUs";
 import WeAre from "./WeAre";
 import FAQ from "../components/FAQ";
+import Email from "../components/Email";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <NeedUs />
       <WeAre />
       <FAQ />
+      <Email />
     </div>
   );
 };

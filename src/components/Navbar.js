@@ -19,7 +19,11 @@ const Navbar = () => {
         <Link to={"/about"}>ABOUT</Link>
         <Link to={"/contact"}>CONTACT US</Link>
       </nav>
-      <FaPhone className=" hidden sm:hidden md:block" />
+      <nav className=" flex items-center gap-2">
+        <FaPhone className=" hidden sm:hidden md:block" />
+        <p className="sm:hidden hidden md:block text-sm"> 07 59 283 420</p>
+      </nav>
+
       {/**/}
       {!isVisible ? (
         <CiMenuBurger

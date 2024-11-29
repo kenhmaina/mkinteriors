@@ -7,6 +7,7 @@ import Gallery from "./pages/Gallery";
 import ContactUs from "./pages/ContactUs";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import InteriorServices from "./pages/InteriorServices";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/interior" element={<InteriorServices />} />
         </Routes>
         <Footer />
       </div>

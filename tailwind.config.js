@@ -10,7 +10,7 @@ module.exports = {
         blueAccent: "#001BFF",
       },
       spacing: {
-        smallScreen: "6px",
+        smallScreen: "20px",
         defaultScreen: "6px",
         mediumScreen: "6vw",
         largeScreen: "9vw",

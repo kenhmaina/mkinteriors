@@ -1,5 +1,5 @@
 import React from "react";
-import LandingImg from "../assets/images/landing-page.jpg";
+
 import Button from "./Button";
 
 const Landing = () => {
@@ -24,7 +24,7 @@ const Landing = () => {
       </div>
       <img
         className=" sm:h-[75vh] h-[75vh] outline-[2px] outline md:h-[85vh]  object-cover md:max-w-[50%] md:basis-1/2"
-        src={LandingImg}
+        src="https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&w=800"
         alt="#"
       />
     </div>

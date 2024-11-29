@@ -1,6 +1,8 @@
 import React from "react";
 import HowItWorks from "../components/HowItWorks";
 import OurPromises from "../components/OurPromises";
+import Deliverables from "./Deliverables";
+import OurPromises2 from "../components/OurPromise2";
 
 const InteriorServices = () => {
   return (
@@ -17,8 +19,9 @@ const InteriorServices = () => {
         <HowItWorks />
       </div>
       <div>
-        <OurPromises />
+        <OurPromises2 />
       </div>
+      <Deliverables />
     </div>
   );
 };

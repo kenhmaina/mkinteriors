@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import OurPromises from "../components/OurPromises";
 import FAQ from "../components/FAQ";
 import BookConsultation from "../components/BookConsultation";
+import OurPromises2 from "../components/OurPromise2";
 
 const Services = () => {
   return (
@@ -23,7 +24,7 @@ const Services = () => {
             <h1 className=" font-bold sm:text-3xl text-xl  md:text-3xl">
               Full-Service Interior Design{" "}
             </h1>
-            <p className="text-[14px] mt-2   sm:text-[14px] md:text-[20px]   items-center  tracking-wide   font-light">
+            <p className="text-[14px] mt-2   sm:text-[14px] md:text-[14px]   items-center  tracking-wide   font-light">
               Experience custom design creation with our Full-Service Interior
               Design. Our experts manage every detail, from space planning to
               final installation, providing a personalized and stress-free
@@ -46,7 +47,7 @@ const Services = () => {
             <h1 className=" font-bold sm:text-3xl text-xl  md:text-3xl">
               Virtual Interior Design
             </h1>
-            <p className="text-[14px] mt-2   sm:text-[14px] md:text-[20px]   items-center  tracking-wide   font-light">
+            <p className="text-[14px] mt-2   sm:text-[14px] md:text-[14px]   items-center  tracking-wide   font-light">
               Our Virtual Interior Design service utilizes the same custom
               design creation but pairs it with the flexibility of remote
               communication. Reimagine your space on a more flexible timeline

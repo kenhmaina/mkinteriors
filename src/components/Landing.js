@@ -18,7 +18,7 @@ const Landing = () => {
           <Button
             className={`  hover:text-black ml-[60vw] w-fit sm:ml-[60vw] md:ml-0 hover:bg-white outline gap-4 px-8 outline-[1px]   bg-black   text-white cursor-pointer transition-all ease-in-out font-light `}
             text={"EPLORE"}
-            link={"/gallery"}
+            link={"/services"}
           />
         </div>
       </div>

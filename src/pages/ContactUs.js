@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
+import { FaPhone } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
